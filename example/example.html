@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>JQuery Sticky Menu Plugin Example</title>
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+
+<script>
+$ (window).load (function ()
+{
+
+	// TODO: Standoff
+
+	var top = $ ('#stickymenu').offset ().top,
+		parent_height = $ ('#stickymenu').parent ().height (),
+		width = $ ('#stickymenu').width ();
+	$ ('#stickymenu').parent ().height (parent_height);
+
+	$ (window).scroll (function ()
+	{
+		if ($ (document).scrollTop () + 0 >= top)
+		{
+			if ($ ('#stickymenu').css ('position') != 'fixed')
+			{
+				$ ('#stickymenu').css ({position: 'fixed', top: 0, width: width});
+				console.log ('TRUE--')
+			}
+
+		}
+		else if ($ ('#stickymenu').css ('position') == 'fixed')
+		{
+			$ ('#stickymenu').css ({position: ''});
+			console.log ('FALSE--')
+		}
+
+
+	});
+});
+
+</script>
+
+Hrllo motoofw e<br />
+Hrllo motoofw e<br />
+Hrllo motoofw e<br />
+Hrllo motoofw e<br />
+Hrllo motoofw e<br />
+Moto poto
+
+
+<div style="position: relative; overflow: hidden;">
+	<div id="stickymenu" style="background-color: #444444; color: #FFFFFF; padding: 10px;">
+		Sticky menu
+	</div>
+</div>
+
+<div style="width: 300px; font-size: 20px;">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda, cumque debitis neque nobis perferendis provident quas tempore totam vero. Assumenda corporis ducimus laborum, neque nesciunt numquam perspiciatis quae voluptatem.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut blanditiis dolore ipsam laboriosam libero, nisi numquam perferendis, placeat quaerat quisquam soluta suscipit! Error et facere, nulla placeat quam quia veritatis!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae, blanditiis commodi cupiditate delectus dolore earum eum illo inventore minus nam necessitatibus nostrum omnis pariatur perspiciatis quaerat quo tenetur vitae!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda, cumque debitis neque nobis perferendis provident quas tempore totam vero. Assumenda corporis ducimus laborum, neque nesciunt numquam perspiciatis quae voluptatem.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut blanditiis dolore ipsam laboriosam libero, nisi numquam perferendis, placeat quaerat quisquam soluta suscipit! Error et facere, nulla placeat quam quia veritatis!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae, blanditiis commodi cupiditate delectus dolore earum eum illo inventore minus nam necessitatibus nostrum omnis pariatur perspiciatis quaerat quo tenetur vitae!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda, cumque debitis neque nobis perferendis provident quas tempore totam vero. Assumenda corporis ducimus laborum, neque nesciunt numquam perspiciatis quae voluptatem.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut blanditiis dolore ipsam laboriosam libero, nisi numquam perferendis, placeat quaerat quisquam soluta suscipit! Error et facere, nulla placeat quam quia veritatis!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae, blanditiis commodi cupiditate delectus dolore earum eum illo inventore minus nam necessitatibus nostrum omnis pariatur perspiciatis quaerat quo tenetur vitae!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda, cumque debitis neque nobis perferendis provident quas tempore totam vero. Assumenda corporis ducimus laborum, neque nesciunt numquam perspiciatis quae voluptatem.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut blanditiis dolore ipsam laboriosam libero, nisi numquam perferendis, placeat quaerat quisquam soluta suscipit! Error et facere, nulla placeat quam quia veritatis!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae, blanditiis commodi cupiditate delectus dolore earum eum illo inventore minus nam necessitatibus nostrum omnis pariatur perspiciatis quaerat quo tenetur vitae!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda, cumque debitis neque nobis perferendis provident quas tempore totam vero. Assumenda corporis ducimus laborum, neque nesciunt numquam perspiciatis quae voluptatem.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut blanditiis dolore ipsam laboriosam libero, nisi numquam perferendis, placeat quaerat quisquam soluta suscipit! Error et facere, nulla placeat quam quia veritatis!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae, blanditiis commodi cupiditate delectus dolore earum eum illo inventore minus nam necessitatibus nostrum omnis pariatur perspiciatis quaerat quo tenetur vitae!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda, cumque debitis neque nobis perferendis provident quas tempore totam vero. Assumenda corporis ducimus laborum, neque nesciunt numquam perspiciatis quae voluptatem.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut blanditiis dolore ipsam laboriosam libero, nisi numquam perferendis, placeat quaerat quisquam soluta suscipit! Error et facere, nulla placeat quam quia veritatis!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae, blanditiis commodi cupiditate delectus dolore earum eum illo inventore minus nam necessitatibus nostrum omnis pariatur perspiciatis quaerat quo tenetur vitae!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda, cumque debitis neque nobis perferendis provident quas tempore totam vero. Assumenda corporis ducimus laborum, neque nesciunt numquam perspiciatis quae voluptatem.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut blanditiis dolore ipsam laboriosam libero, nisi numquam perferendis, placeat quaerat quisquam soluta suscipit! Error et facere, nulla placeat quam quia veritatis!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae, blanditiis commodi cupiditate delectus dolore earum eum illo inventore minus nam necessitatibus nostrum omnis pariatur perspiciatis quaerat quo tenetur vitae!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda, cumque debitis neque nobis perferendis provident quas tempore totam vero. Assumenda corporis ducimus laborum, neque nesciunt numquam perspiciatis quae voluptatem.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut blanditiis dolore ipsam laboriosam libero, nisi numquam perferendis, placeat quaerat quisquam soluta suscipit! Error et facere, nulla placeat quam quia veritatis!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae, blanditiis commodi cupiditate delectus dolore earum eum illo inventore minus nam necessitatibus nostrum omnis pariatur perspiciatis quaerat quo tenetur vitae!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda, cumque debitis neque nobis perferendis provident quas tempore totam vero. Assumenda corporis ducimus laborum, neque nesciunt numquam perspiciatis quae voluptatem.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut blanditiis dolore ipsam laboriosam libero, nisi numquam perferendis, placeat quaerat quisquam soluta suscipit! Error et facere, nulla placeat quam quia veritatis!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae, blanditiis commodi cupiditate delectus dolore earum eum illo inventore minus nam necessitatibus nostrum omnis pariatur perspiciatis quaerat quo tenetur vitae!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda, cumque debitis neque nobis perferendis provident quas tempore totam vero. Assumenda corporis ducimus laborum, neque nesciunt numquam perspiciatis quae voluptatem.
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut blanditiis dolore ipsam laboriosam libero, nisi numquam perferendis, placeat quaerat quisquam soluta suscipit! Error et facere, nulla placeat quam quia veritatis!
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae, blanditiis commodi cupiditate delectus dolore earum eum illo inventore minus nam necessitatibus nostrum omnis pariatur perspiciatis quaerat quo tenetur vitae!
+</div>
+
+</body>
+</html>
