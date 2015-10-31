@@ -1,9 +1,9 @@
 /*
  * Module: JQuery Sticky Menu Plugin
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: Chaikin Evgenii
  * Release date: 28 Oct 2015
- * Updated: 29 Oct 2015
+ * Updated: 31 Oct 2015
  * Site: http://www.fater.ru
  * Dependencies: JQuery
  * */
