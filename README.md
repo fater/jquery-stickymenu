@@ -31,7 +31,7 @@ $> bower install jquery-stickymenu --save
 ###Как использовать плагин
 Необходимо разместить следующий HTML код на странице:
 ```html
-<div style="position: relative; overflow: hidden;">
+<div style="position: relative;">
 	<div id="stickymenu">
 		...
 	</div>
@@ -45,7 +45,7 @@ $.stickymenu ({object});
 ```
 Тип входящих данных: JSON:
 
-* **object_id** - ID объекта плавающего меню. По умолчанию значение "stickymenu";
-* **standoff** - отступ плавающего меню от верхней границы экрана. По умолчанию значние 0;
+* **object_id** - ID объекта плавающего меню. По умолчанию значение "`stickymenu`";
+* **standoff** - отступ плавающего меню от верхней границы экрана. По умолчанию значние `0`;
 * **standoff_object_id** - отступ плавающего меню относительно такого же плавающего меню.
 
