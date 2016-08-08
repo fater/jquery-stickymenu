@@ -2,13 +2,13 @@
   "name": "jquery-stickymenu",
   "homepage": "https://github.com/fater/jquery-stickymenu",
   "authors": [
-		"'Chaikin Evgenii <'fat_hack@rambler.ru'>"
+    "'Chaikin Evgenii <'fat_hack@rambler.ru'>"
   ],
-	"description": "JQuery Sticky Menu Plugin",
+  "description": "jQuery Sticky Menu Plugin",
   "main": "jquery.stickymenu.js",
   "moduleType": [],
   "keywords": [
-		"stickymenu"
+    "stickymenu"
   ],
   "license": "CC",
   "ignore": [
@@ -18,7 +18,7 @@
     "test",
     "tests"
   ],
-	"dependencies": {
-    "jquery": "~2.1.4"
+  "dependencies": {
+    "jquery": "~2.2.4"
   }
 }

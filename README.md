@@ -1,47 +1,47 @@
-#Sticky Menu jQuery plugin
+# jQuery Sticky Menu Plugin
 
-Версия: **1.1.1**
+[![GitHub version](https://badge.fury.io/gh/fater%2Fjquery-stickymenu.svg)](https://badge.fury.io/gh/fater%2Fjquery-stickymenu)
 
-###Для чего плагин?
+### Для чего плагин?
 * Плагин постоянно отображает на экране указанное меню, его иначе называют "Липким меню".
 
 ![jQuery Sticky Menu Plugin](http://files.fater.ru/git/jquery-stickymenu/1.gif)
 
-##Зависимости
+## Dependencies
 * **jQuery** - необходимая библиотека для работы модуля
 
-##Установка с помощью Bower
+## Bower installation
 ```
 $> bower install jquery-stickymenu --save
 ```
 Происходит установка плагина. В текущем пакете есть зависимость jQuery. Если jQuery не были установлены через bower, он установится вместе с плагином ScrollToTop. 
 
 
-###Как подключить плагин
+### Как подключить плагин
 
 Подключите файлы в HTML проект:
 ```html
-// Stickymenu плагин
-<script src="url-to-module/jquery-stickymenu/dist/jquery.stickymenu.min.js"></script>
+// jQuery common library
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
-// JQuery
-<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+// Sticky Menu Plugin
+<script src="url-to-module/jquery-stickymenu/dist/jquery.stickymenu.min.js"></script>
 ```
 
-###Как использовать плагин
+### Как использовать плагин
 Необходимо разместить следующий HTML код на странице:
 ```html
 <div style="position: relative;">
-	<div id="stickymenu">
-		...
-	</div>
+    <div id="stickymenu">
+        ...
+    </div>
 </div>
 ```
 
 
-##Описание параметров
+## Описание параметров
 ```js
-$.stickymenu ({object}); 
+$.stickymenu({params}); 
 ```
 Тип входящих данных: JSON:
 
